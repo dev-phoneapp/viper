@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "884955609590",
+    "firebase_url": "https://viper-58e48.firebaseio.com",
+    "project_id": "viper-58e48",
+    "storage_bucket": "viper-58e48.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884955609590:android:271e3bace66dc20da72fd7",
+        "android_client_info": {
+          "package_name": "dev.hello.viper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884955609590-s54gvbvp89pdij34idudso0dl9ikmedc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dev.hello.viper",
+            "certificate_hash": "c7b1b7092f9e0ec696aa106e32cff3642454a708"
+          }
+        },
+        {
+          "client_id": "884955609590-jgge6umfgms874m1toghbp7ps9ussqdr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCirggr1rVN96zPhexYn6NXIA4rAZi_ONs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884955609590-jgge6umfgms874m1toghbp7ps9ussqdr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
