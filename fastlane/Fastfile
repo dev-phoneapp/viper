@@ -41,7 +41,7 @@ platform :android do
     build_android_app(task: "assemble", build_type: "debug")
           firebase_app_distribution(
               app: "dev.hello.viper",
-              testers: "ved.yadav@rootinfosol.com, nikhil@rootinfosol.com", dev.phoneapp@gmail.com,
+              testers: "ved.yadav@rootinfosol.com, nikhil@rootinfosol.com", "dev.phoneapp@gmail.com",
               firebase_cli_token: "1//0gG2aZ8y1jI5OCgYIARAAGBASNwF-L9IrfDAAiQdbBg46oPMeSVCcz_Ano7hbQtCQDTWwJd48hCW8R3pedPcoPCt-zRJjVVXPmw8"
           )
         end
