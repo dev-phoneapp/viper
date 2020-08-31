@@ -37,11 +37,8 @@ platform :android do
   end
 
   desc "Submit a new beta build to Firebase App Distribution"
-      lane : distribute do
-          build_android_app(
-            task: "assemble",
-            build_type: "debug"
-          )
+  lane : distribute do
+    build_android_app(task: "assemble", build_type: "debug")
           firebase_app_distribution(
               app: "dev.hello.viper",
               testers: "ved.yadav@rootinfosol.com, nikhil@rootinfosol.com", dev.phoneapp@gmail.com,
