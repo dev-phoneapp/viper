@@ -31,6 +31,11 @@ Submit a new Beta Build to Crashlytics Beta
 fastlane android deploy
 ```
 Deploy a new version to the Google Play
+### android distribute
+```
+fastlane android distribute
+```
+Submit a new beta build to Firebase App Distribution
 
 ----
 
