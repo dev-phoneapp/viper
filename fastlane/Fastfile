@@ -40,7 +40,7 @@ platform :android do
   lane :distribute do
     build_android_app(task: "assemble", build_type: "debug")
           firebase_app_distribution(
-              app: "dev.hello.viper",
+              app: "1:884955609590:android:271e3bace66dc20da72fd7",
               testers: "ved.yadav@rootinfosol.com, nikhil@rootinfosol.com",
               firebase_cli_token: "1//0ggHH4BuhAFmjCgYIARAAGBASNwF-L9IrBEdtiK6pG5gLpqwcBwtfVUHgHAjIx-WoMxtA48HK1oB-hmdObubKkLcbOZEk6s8MScw"
           )
