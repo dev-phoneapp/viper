@@ -1,0 +1,32 @@
+image:     mustafakhaled/android-fastlane-firebase:1.0
+
+stages:
+  - build
+  - test
+  - deploy
+
+lintDebug:
+  stage: build
+  script:
+    - ./gradlew -Pci --console=plain :app:lintDebug -PbuildDir=lint
+
+assembleDebug:
+  stage: build
+  script:
+    - ./gradlew assembleDebug
+  artifacts:
+    paths:
+    - app/build/outputs/
+
+debugTests:
+  stage: test
+  script:
+    - ./gradlew -Pci --console=plain :app:testDebug
+
+deploy_internal:
+
+
+  stage: deploy
+
+  script:
+    - fastlane distribute
