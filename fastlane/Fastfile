@@ -42,7 +42,7 @@ platform :android do
           firebase_app_distribution(
               app: "dev.hello.viper",
               testers: "ved.yadav@rootinfosol.com, nikhil@rootinfosol.com",
-              firebase_cli_token: "1//0gG2aZ8y1jI5OCgYIARAAGBASNwF-L9IrfDAAiQdbBg46oPMeSVCcz_Ano7hbQtCQDTWwJd48hCW8R3pedPcoPCt-zRJjVVXPmw8"
+              firebase_cli_token: "1//0ggHH4BuhAFmjCgYIARAAGBASNwF-L9IrBEdtiK6pG5gLpqwcBwtfVUHgHAjIx-WoMxtA48HK1oB-hmdObubKkLcbOZEk6s8MScw"
           )
         end
 
