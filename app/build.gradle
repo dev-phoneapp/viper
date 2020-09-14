@@ -41,7 +41,7 @@ android {
 }
 
 dependencies {
-    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation fileTree( include: ["*.jar"], dir: "libs")
 
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.core:core-ktx:1.3.1'
@@ -60,5 +60,7 @@ dependencies {
 
 //    Firebase SDK(Google Analytics)
     implementation 'com.google.firebase:firebase-analytics:17.5.0'
+
+    implementation project(path: ':PGW_SDK_ANDROID_v4.2.10')
 
 }

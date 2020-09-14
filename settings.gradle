@@ -1,2 +1,3 @@
+include ':PGW_SDK_ANDROID_v4.2.10'
 include ':app'
 rootProject.name = "Viper"

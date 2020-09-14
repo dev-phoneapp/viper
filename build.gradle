@@ -1,3 +1,7 @@
+//dependencies {
+//    implementation project(path: ':PGW_SDK_ANDROID_v4.2.10')
+//}
+
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 buildscript {
     ext.kotlin_version = "1.4.0"

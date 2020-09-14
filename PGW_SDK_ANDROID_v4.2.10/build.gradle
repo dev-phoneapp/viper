@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('PGW_SDK_ANDROID_v4.2.10.aar'))

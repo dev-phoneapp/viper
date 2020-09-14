@@ -11,6 +11,7 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/PGW_SDK_ANDROID_v4.2.10" />
             <option value="$PROJECT_DIR$/app" />
           </set>
         </option>
