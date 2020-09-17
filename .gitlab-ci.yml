@@ -27,6 +27,9 @@ deploy_internal:
 
 
   stage: deploy
+  
+  only: 
+    - master
 
   script:
     - fastlane distribute
