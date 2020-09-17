@@ -1,0 +1,2 @@
+com.ccpp.pgw.sdk.android
+string app_name

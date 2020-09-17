@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Viper</string>
+    <string name="release">"This is test to setup automate build release … "</string>
 </resources>

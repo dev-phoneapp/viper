@@ -18,8 +18,7 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        tv_add.text = hello(4, 5)
-        hello(4, 8)
+        tv_add.text = (getString(R.string.release) + hello(1, 0))
 
     }
 

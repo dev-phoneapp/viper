@@ -41,8 +41,9 @@ platform :android do
     build_android_app(task: "assemble", build_type: "debug")
           firebase_app_distribution(
               app: "1:884955609590:android:271e3bace66dc20da72fd7",
-              testers: "ved.yadav@rootinfosol.com, nikhil@rootinfosol.com",
-              firebase_cli_token: "1//0ggHH4BuhAFmjCgYIARAAGBASNwF-L9IrBEdtiK6pG5gLpqwcBwtfVUHgHAjIx-WoMxtA48HK1oB-hmdObubKkLcbOZEk6s8MScw"
+              testers: "dev.phoneapp@gmail.com",
+              release_notes: "This is test release to see automate release along with details ",
+              firebase_cli_token: "1//0g_Ip1dM1pBrbCgYIARAAGBASNwF-L9IrrP85ElrLo0B-Gw65UDVRKltolfKGCjxcpyMg1IXvX4Mre3nYthOWoU0dymVsM4d9G8s"
           )
         end
 
